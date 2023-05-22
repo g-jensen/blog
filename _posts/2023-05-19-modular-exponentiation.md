@@ -11,7 +11,7 @@ take that value `mod n`.
 As `b` and `e` become large, calculating the value of this expression the simple way becomes very time-consuming and
 can cause integer overflows even if the ending value is not large.
 
-One way to greatly decrease the speed and decrease integer overflows is to use Binary Exponentiation.
+One way to greatly increase the speed and decrease the chance of integer overflows is to use Binary Exponentiation.
 This process involves converting `e` into binary and then looping through the bits to take shortcuts.
 
 The following implementation of Binary Exponentiation in Clojure (`mod-pow`) loops through of the bits of `e` from right to
