@@ -6,7 +6,7 @@ date: 2023-05-26
 Euler #14 asks
 ```Which starting number, under one million, produces the longest Collatz sequence?```
 
-The naive and relatively reasonably fast approach looks at follows:
+The naive and relatively fast approach looks at follows:
 ```clojure
 (defn next-collatz [n]
   (if (even? n)
