@@ -19,7 +19,7 @@ Construct a line AB
 
 ![sqrt1](https://raw.githubusercontent.com/g-jensen/blog/main/assets/sqrt1.png)
 
-Add a point C such that BC is of unit length and AC is a line
+Add a point C such that BC is of unit length and ABC is a line
 
 ![sqrt2](https://raw.githubusercontent.com/g-jensen/blog/main/assets/sqrt2.png)
 
