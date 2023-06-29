@@ -18,16 +18,16 @@ So the first couple menu elements looks like this:
   {:state :database})
 
 (defmethod next-state :database [state input]
-           (cond
-             (= "1" input) (assoc state :database (FileDatabase. "games.txt") :state :load-type)
-             (= "2" input) (assoc state :database (SQLDatabase. "games.db") :state :load-type)
-             :else state))
+  (cond
+    (= "1" input) (assoc state :database (FileDatabase. "games.txt") :state :load-type)
+    (= "2" input) (assoc state :database (SQLDatabase. "games.db") :state :load-type)
+     :else state))
 
 (defmethod next-state :load-type [state input]
-           (cond
-             (= "1" input) (assoc state :load-type :new :state :board-size)
-             (= "2" input) (assoc state :load-type :load :state :select-game)
-             :else state))
+  (cond
+    (= "1" input) (assoc state :load-type :new :state :board-size)
+    (= "2" input) (assoc state :load-type :load :state :select-game)
+    :else state))
 ```
 
 This way we can keep calling `next-state` recursively and create an order. So something like
