@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "SQL Persistence in Clojure"
-date: 2023-06-26
+date: 2023-06-27
 ---
 
 Using SQLite for my TicTacToe game was surprisingly simple. It's very easy to add a package as a
