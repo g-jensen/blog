@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "TicTacToe Menu"
-date: 2023-06-28
+date: 2023-06-29
 ---
 
 In an attempt to make my TicTacToe menu system more testable and less fragile, I have all
