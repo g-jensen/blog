@@ -18,4 +18,4 @@ so the only real requirement is that it has three design patterns. I was given s
 chose to go my own path and decided to make a simple math language. The language will support basic
 operations like addition and subtraction. It will also include math functions like `exp` and `ln`. Additionally, it will
 be possible to create constant symbols to store a value (e.g. `A = 5`). While not allowing the user to create custom
-function, it will support built-in higher-order functions. All of this will be done in a REPL style environment.
+functions, it will support some built-in higher-order functions. All of this will be done in a REPL style environment.
